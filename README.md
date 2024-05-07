@@ -1,6 +1,6 @@
 # Blog Post CRUD Operations
 
-This is simple blog application including CRUD operations using react packages and the states are managed using redux toolkit
+This is simple blog application including CRUD operations using react library and the states are managed using redux toolkit
 
 
 
