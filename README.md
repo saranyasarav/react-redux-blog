@@ -10,8 +10,10 @@ Install node, redux,redux toolkit packages
 
 
 ```
+npm install react-redux
+npm install @reduxjs/toolkit
 npm run dev -- --open
 ```
-This will open development url in browser, use Visual Studio Code to edit the "src" folder files (.svelte files, css, html) and can view live changes.
+This will open development url in browser, use Visual Studio Code to edit the "src" folder files (.jsx files, css) and can view live changes.
 
 
