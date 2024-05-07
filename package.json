@@ -1,5 +1,5 @@
 {
-  "homepage":"http://SarayaSSa.github.io/Blog-Post-Project",
+  "homepage": "http://SarayaSSa.github.io/Blog-Post-Project",
   "name": "react",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {

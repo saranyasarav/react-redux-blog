@@ -54,7 +54,7 @@ export const deletePost = createAsyncThunk(
 // {
 //     id: '1',
 //     title: 'Learning Redux 
-Toolkit',
+
 //     content: 'It is easy'
 
 // },
