@@ -25,7 +25,10 @@ const PostsList = () => {
   if (postStatus === "loading") {
     content = <p> "Loading..."</p>;
   } else if (postStatus === "Succeeded") {
-    content = posts.map((post) => <PostPart key={post.id} post={post} />);
+     // Reverse the array of posts to display the latest one first
+     const reversedPosts = posts.slice().reverse();
+     content = reversedPosts.map((post) => <PostPart key={post.id} post={post} />);
+    //content = posts.map((post) => <PostPart key={post.id} post={post} />);
   } else if (postStatus === "failed") {
     content = <p>{postError}</p>;
   }
